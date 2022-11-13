@@ -1,11 +1,1 @@
-{
-		<?php
-$ch = curl_init('https://webtopdf.expeditedaddons.com/?api_key=T63ZFE5AO7M6DJ8598R42WKUN472BX0S1VC31PGH9Y0QIL&content=http://www.wikipedia.org&margin=10&html_width=1024&title=My PDF Title');
-
-$response = curl_exec($ch);
-curl_close($ch);
-
-var_dump($response);
-
-?>
-}
+{}
